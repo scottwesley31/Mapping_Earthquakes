@@ -55,8 +55,8 @@ attribution: 'Map data © <a href="https://www.openstreetmap.org/">OpenStreetMap
 // Skill Drill: Base layer with night/day navigation maps
 // Create a base layer that holds both maps.
 let baseMaps = {
-    NightNavigation: nightNav,
-    DayNavigation: dayNav
+    "Night Navigation": nightNav,
+    "Day Navigation": dayNav
 };
 
 // // Create the map object with a center and zoom level.
