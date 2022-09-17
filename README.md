@@ -34,5 +34,11 @@ If any of these circle markers are selected, a popup will appear with informatio
 Similar to the Earthquakes layer, any circle marker can be selected to display information about the earthquake.
 ![popup_example2](https://user-images.githubusercontent.com/107309793/190873554-49630da9-412a-4ad4-9d95-4ffe39a5acb1.png)
 
+### Other Features
+This interactive map also has a layer/tile control in the top right corner which allows for a user to toggle between any combination of tiles and layers. There is also a legend in the bottom right corner which displays how the color of the circle markers relates to the magnitude of the earthquake.
+
+These additional features are depicted in the screenshot below with a few selectios made using the layer control:
+![toggle_example](https://user-images.githubusercontent.com/107309793/190873709-5beaea0a-1cdf-4dec-b61c-d63d8b0dc9a8.png)
 
 ## Summary
+Overall this project is successful in creating a world map with interactive features that allow for a user to toggle between different geoJSON datasets related to earthquakes and tectonic plates. This is a useful reference on how to create maps using JavaScript, HTL, and CSS.
