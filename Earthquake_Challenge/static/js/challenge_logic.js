@@ -137,7 +137,7 @@ console.log(data);
   }
   // 5. Change the color function to use three colors for the major earthquakes based on the magnitude of the earthquake.
   function getColor(magnitude) {
-    if (magnitude < 5) {
+    if (magnitude <= 5) {
       return "#C70039";
     }
     if (magnitude > 5) {
@@ -236,7 +236,7 @@ legend.onAdd = function() {
       // Style the lines with color and weight that will make it stand out on all maps
     style: function() {
       return {
-        color: "black",
+        color: "orange",
         weight: 1.5
       };
     }
